@@ -35,7 +35,7 @@ public class ExceptionAndLogger {
         System.out.println("\n --------------------------------------------------- \n");
     }
 
-    public static void printCountry(Country country) {
+    public static void printCountry(Country country) throws InvalidCountryCodeException {
         if (country.code() == null || country.code().isEmpty()) {
             throw new InvalidCountryCodeException();
         }

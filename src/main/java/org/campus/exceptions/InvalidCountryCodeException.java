@@ -1,3 +1,3 @@
 package org.campus.exceptions;
 
-public class InvalidCountryCodeException extends RuntimeException{}
+public class InvalidCountryCodeException extends Exception{}
